@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'MondayFeelings';
+    src: local('MondayFeelings'), url('../fonts/mondayfeelings.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'Muthiara';
+    src: local('Muthiara'), url('../fonts/muthiara.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'RainbowSeason';
+    src: local('RainbowSeason'), url('../fonts/RainbowSeason.woff') format('woff');
+  }
