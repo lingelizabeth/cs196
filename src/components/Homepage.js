@@ -24,7 +24,7 @@ function Homepage(){
                 </Row>
                 <Row className="justify-content-center">            
                     <Button className="w-auto" onClick={navigateEffect}>Login / Register</Button>
-                    <Button onClick={FillData}> Fill Data! </Button>
+                    {/* <Button onClick={FillData}> Fill Data! </Button> */}
                 </Row>
 
                 

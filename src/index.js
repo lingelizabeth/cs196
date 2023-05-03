@@ -45,11 +45,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Switch>
-      {/* <Route path="/admin" element={<Homepage />} /> */}
+      <Route path="/admin" element={<Homepage />} />
       {/* <AdminLayout props={[]}/> ... (props) => <AdminLayout {...props} /> */}
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/dashboard" element={<SimpleDashboard/>} />
+      <Route path="/dashboard" element={<Dashboard/>} />
       <Route path="/studyplans" element={<StudyPlans/>} />
       <Route path="/problems" element={<ProblemList/>} />
       <Route path="/sessions" element={<SessionsList/>} />
